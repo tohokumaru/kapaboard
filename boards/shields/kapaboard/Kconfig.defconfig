@@ -1,0 +1,14 @@
+
+if SHIELD_KAPABOARD_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "kapaboard"
+
+endif
+
+if SHIELD_KAPABOARD_LEFT || SHIELD_KAPABOARD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

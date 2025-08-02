@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: kapaboard
+name: kapaboard
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - kapaboard_left
+  - kapaboard_right

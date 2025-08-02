@@ -1,0 +1,4 @@
+config SHIELD_KAPABOARD_LEFT
+    def_bool $(shields_list_contains,kapaboard_left)
+config SHIELD_KAPABOARD_RIGHT
+    def_bool $(shields_list_contains,kapaboard_right)
