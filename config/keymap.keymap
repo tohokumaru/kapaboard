@@ -7,10 +7,10 @@
 
         layer_0 {
             bindings = <
-&kp ESC     &kp Q  &kp W     &kp E         &kp R           &kp T      &kp K_COPY   &none          &kp Y      &kp U  &kp I  &kp O  &kp P  &kp AT_SIGN
-&kp TAB     &kp A  &kp S     &kp D         &kp F           &kp G      &kp K_PASTE  &none          &kp H      &kp J  &kp K  &kp L  &none  &none
-&kp LSHIFT  &kp Z  &kp X     &kp C         &kp V           &kp B                                  &kp N      &kp M  &none  &none  &none  &none
-                   &kp LWIN  &kp LEFT_ALT  &kp LANGUAGE_4  &kp SPACE  &kp DELETE   &kp BACKSPACE  &kp ENTER                       &none
+&kp ESC     &kp Q  &kp W     &kp E         &kp R           &kp T      &none       &none          &kp Y      &kp U  &kp I      &kp O       &kp P          &kp AT_SIGN
+&kp TAB     &kp A  &kp S     &kp D         &kp F           &kp G      &none       &none          &kp H      &kp J  &kp K      &kp L       &kp SEMICOLON  &none
+&kp LSHIFT  &kp Z  &kp X     &kp C         &kp V           &kp B                                 &kp N      &kp M  &kp COMMA  &kp PERIOD  &kp SLASH      &none
+                   &kp LWIN  &kp LEFT_ALT  &kp LANGUAGE_5  &kp SPACE  &kp DELETE  &kp BACKSPACE  &kp ENTER                                &none
             >;
         };
 
