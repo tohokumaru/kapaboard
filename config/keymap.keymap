@@ -4,6 +4,15 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    macros {
+        macro_1: macro_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(S) &kp A &kp N &kp N5 &kp K &kp U &kp N4 &kp PLUS &kp S &kp H &kp I &kp N &kp LS(S) &kp E &kp N &kp N5 &kp M &kp I>;
+            label = "MACRO_1";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -18,7 +27,7 @@
 
         layer_1 {
             bindings = <
-&mt ESC TAB  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5     &none       &none          &kp NUMBER_6  &kp N7          &kp N8          &kp N9           &kp N0  &none
+&mt ESC TAB  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5     &none       &macro_1       &kp NUMBER_6  &kp N7          &kp N8          &kp N9           &kp N0  &none
 &kp LSHIFT   &none         &none         &none         &none         &none      &none       &none          &none         &none           &kp UP          &none            &none   &none
 &kp LCTRL    &none         &none         &none         &none         &none                                 &none         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none
                            &kp LWIN      &none         &kp INT4      &kp SPACE  &kp DELETE  &kp BACKSPACE  &kp ENTER                                                      &none
