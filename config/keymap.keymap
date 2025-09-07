@@ -36,10 +36,10 @@
 
         layer_2 {
             bindings = <
-&mt ESC TAB  &kp EXCL  &kp DQT   &kp POUND  &kp DLLR  &kp PRCNT  &none          &none          &kp AMPS   &kp SINGLE_QUOTE  &kp LPAR  &kp RPAR  &kp TILDE  &kp PIPE
-&kp LSHIFT   &none     &none     &none      &none     &none      &none          &none          &none      &none             &none     &none     &kp AT     &kp LBKT
-&kp LCTRL    &none     &none     &none      &none     &none                                    &none      &none             &none     &kp PLUS  &kp ASTRK  &kp RBKT
-                       &kp LWIN  &none      &none     &kp SPACE  &kp BACKSPACE  &kp BACKSPACE  &kp ENTER                                        &none
+&mt ESC TAB  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &none          &none          &kp LS(N6)  &kp LS(SINGLE_QUOTE)  &kp LS(N8)  &kp LS(N9)  &kp TILDE  &kp PIPE
+&kp LSHIFT   &none       &none       &none       &none       &none       &none          &none          &none       &none                 &none       &none       &kp AT     &kp LBKT
+&kp LCTRL    &none       &none       &none       &none       &none                                     &none       &none                 &none       &kp PLUS    &kp ASTRK  &kp RBKT
+                         &kp LWIN    &none       &none       &kp SPACE   &kp BACKSPACE  &kp BACKSPACE  &kp ENTER                                                 &none
             >;
         };
 
