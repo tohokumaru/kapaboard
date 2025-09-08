@@ -8,7 +8,7 @@
         macro_1: macro_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(S) &kp A &kp N &kp N5 &kp K &kp U &kp N4 &kp PLUS &kp S &kp H &kp I &kp N &kp LS(S) &kp E &kp N &kp N5 &kp M &kp I>;
+            bindings = <&none &kp LS(S) &kp A &kp N &kp N5 &kp K &kp U &kp N4 &kp ASTERISK &kp S &kp H &kp I &kp N &kp LS(S) &kp E &kp N &kp N5 &kp M &kp I>;
             label = "MACRO_1";
         };
     };
