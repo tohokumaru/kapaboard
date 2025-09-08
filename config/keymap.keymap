@@ -20,7 +20,7 @@
             bindings = <
 &mt ESC TAB  &kp Q  &kp W     &kp E         &kp R       &kp T        &kp LANG1       &kp F9         &kp Y      &kp U  &kp I      &kp O       &kp P          &kp MINUS
 &kp LSHIFT   &kp A  &kp S     &kp D         &kp F       &kp G        &kp LANGUAGE_2  &kp F10        &kp H      &kp J  &kp K      &kp L       &kp SEMICOLON  &kp COLON
-&kp LCTRL    &kp Z  &kp X     &kp C         &kp V       &lt 4 B                                     &kp N      &kp M  &kp COMMA  &kp PERIOD  &kp SLASH      &kp UNDER
+&kp LCTRL    &kp Z  &kp X     &kp C         &kp V       &lt 4 B                                     &kp N      &kp M  &kp COMMA  &kp PERIOD  &kp SLASH      &kp LS(MINUS)
                     &kp LWIN  &kp LEFT_ALT  &lt 3 INT4  &lt 2 SPACE  &lt 1 DELETE    &kp BACKSPACE  &kp ENTER                                &kp LS(LG(S))
             >;
         };
@@ -36,10 +36,10 @@
 
         layer_2 {
             bindings = <
-&mt ESC TAB  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &none          &none          &kp LS(N6)  &kp LS(SINGLE_QUOTE)  &kp LS(N8)  &kp LS(N9)  &kp TILDE  &kp PIPE
-&kp LSHIFT   &none       &none       &none       &none       &none       &none          &none          &none       &none                 &none       &none       &kp AT     &kp LBKT
-&kp LCTRL    &none       &none       &none       &none       &none                                     &none       &none                 &none       &kp PLUS    &kp ASTRK  &kp RBKT
-                         &kp LWIN    &none       &none       &kp SPACE   &kp BACKSPACE  &kp BACKSPACE  &kp ENTER                                                 &none
+&mt ESC TAB  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &none          &none          &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp TILDE  &kp PIPE
+&kp LSHIFT   &none       &none       &none       &none       &none       &none          &none          &none       &none       &none       &none       &kp AT     &kp LBKT
+&kp LCTRL    &none       &none       &none       &none       &none                                     &none       &none       &none       &kp PLUS    &kp ASTRK  &kp RBKT
+                         &kp LWIN    &none       &none       &kp SPACE   &kp BACKSPACE  &kp BACKSPACE  &kp ENTER                                       &none
             >;
         };
 
